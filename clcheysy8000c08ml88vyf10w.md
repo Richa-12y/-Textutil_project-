@@ -123,8 +123,6 @@ Note that `aspect-ratio` isn't just for images, but any element!
 
 %[https://codepen.io/Richa-12y/pen/GRBjEKW] 
 
-%[https://www.buymeacoffee.com/kricha000l] 
-
 # **🎯 Wrap Up!!**
 
 **More snippets coming soon!** While you're waiting, check out my in-depth [React](https://hashnode.com/@Richa000) js articles and others **Thank you for reading, I hope you enjoyed it🤩Please share it with your network. <mark>Don’t forget to leave your comments below.</mark>**
