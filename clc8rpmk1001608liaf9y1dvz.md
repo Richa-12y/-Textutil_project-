@@ -832,8 +832,6 @@ export default Login;
 
 ![Girl Group Heart GIF by Dreamcatcher](https://media3.giphy.com/media/LPXRrMvhDHGfcaBvxE/200.gif?cid=ecf05e47zaxjyw82f3pzdoda2c982626jiuzil99bzgfnqcv&rid=200.gif&ct=g align="center")
 
-%[https://www.buymeacoffee.com/kricha000l] 
-
 **<mark>Here is the source code link:-</mark>**
 
 %[https://github.com/Richa-12y/Loginform] 
