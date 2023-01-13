@@ -22,19 +22,19 @@ You can use the CSS modules with any module bundler like webpack or browserify o
 
 ![Opportunity Invest GIF by Britannia on EPIX](https://media0.giphy.com/media/f9jwBVzohvX7LSRqWU/200w.gif?cid=ecf05e471v08pz71polbc63uit1o596dqzuqeerdf6p7viw6&rid=200w.gif&ct=g align="center")
 
-1.  **Using CSS modules avoids <mark>namespace collision for CSS classes</mark>**
+1. **Using CSS modules avoids <mark>namespace collision for CSS classes</mark>**
     
-2.  **You can use the same <mark>CSS class in multiple CSS files</mark>**
+2. **You can use the same <mark>CSS class in multiple CSS files</mark>**
     
-3.  **You can confidently update any CSS file without worrying about <mark>affecting other pages</mark>**
+3. **You can confidently update any CSS file without worrying about <mark>affecting other pages</mark>**
     
-4.  **Using CSS Modules <mark>generates random CSS classes </mark> when displayed in the browser**
+4. **Using CSS Modules <mark>generates random CSS classes </mark> when displayed in the browser**
     
     ## 🕶Why do we need to use the CSS Module?
     
     ![friends with benefits GIF by You're The Worst ](https://media1.giphy.com/media/3oxHQJtzs3AG62o1Zm/200w.gif?cid=ecf05e471v08pz71polbc63uit1o596dqzuqeerdf6p7viw6&rid=200w.gif&ct=g align="center")
     
-    ***In the React application, we usually <mark>create a single </mark>*** `.css` ***<mark> file and import it to the main file so the CSS</mark> will be applied to all the components.***
+    ***In the React application, we usually <mark>create a single </mark>*** `.css` ***<mark>file and import it to the main file so the CSS</mark> will be applied to all the components.***
     
     But using <mark>CSS modules helps to create separate CSS files for each component and is local to that particular file and avoids class name collision.</mark>
     
@@ -70,7 +70,7 @@ then in the `src/Button.js` file, we import this file in the following way:
 import buttonStyles from "./button.module.css";
 ```
 
-`   button.module.css`
+`button.module.css`
 
 ```css
 .title {
@@ -290,7 +290,7 @@ button{
 
 ## Adding multiple classes
 
-consider we have two classes Then to use both of these classes for the same element we need to use the <mark> ES6 template literal syntax like this:</mark>
+consider we have two classes Then to use both of these classes for the same element we need to use the <mark>ES6 template literal syntax like this:</mark>
 
 ```css
 <div className={`${buttonStyles["btn-bold"]} ${buttonStyles["btn-active"]}`}>Some text...</div>
@@ -300,17 +300,15 @@ consider we have two classes Then to use both of these classes for the same elem
 
 ![kal ho na ho bollywood GIF by bypriyashah](https://media0.giphy.com/media/xTiIztiylOG25TzMkM/100.gif?cid=ecf05e47a4uveygea1l14q855aj2su6vo3x791zwotl9du32&rid=100.gif&ct=g align="center")
 
-*   **CSS modules help to avoid global class name collisions**
+* **CSS modules help to avoid global class name collisions**
     
-*   **They also help in keeping CSS files clean and easy to organize and maintain**
+* **They also help in keeping CSS files clean and easy to organize and maintain**
     
-*   **They are similar to styled components for maintaining local scope**
+* **They are similar to styled components for maintaining local scope**
     
-*   **They're scoped locally to avoid unintentional side effects elsewhere**
+* **They're scoped locally to avoid unintentional side effects elsewhere**
     
-*   **They are used as the preferred styling mechanism in Gatsby.js and Next.js and they work out-of-the-box**
-    
-    %[https://www.buymeacoffee.com/kricha000l] 
+* **They are used as the preferred styling mechanism in Gatsby.js and Next.js and they work out-of-the-box**
     
     # **🎯 Wrap Up!!**
     
