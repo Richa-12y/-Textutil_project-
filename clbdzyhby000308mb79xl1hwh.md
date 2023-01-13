@@ -773,6 +773,4 @@ export default Footer;
 
 Thank you for reading. This is the first time that I wrote a blog article for the project. I hope you enjoyed reading it. Please share it with your network. <mark>Don’t forget to leave your comments below.</mark>
 
-%[https://www.buymeacoffee.com/kricha000l] 
-
 ![Bye Bye Love GIF by koreadispatch](https://media1.giphy.com/media/yweRN7UQtS0nhq1UrL/200w.gif?cid=ecf05e478wy2s28mfnqfmilw8yvf45ns7h3zytpwswznki9f&rid=200w.gif&ct=g align="center")
