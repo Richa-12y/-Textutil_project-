@@ -10,7 +10,7 @@ In some situations, applications need to access the current location properties 
 
 **<mark>The app can provide specific services to the user according to current geolocation. The app with a map integration can show the current location of the user on the Google map using </mark>** [**<mark>Google Maps API</mark>**](https://www.geeksforgeeks.org/python-get-google-map-image-specified-location-using-google-static-maps-api/)**<mark>.</mark>**
 
-By using the react-geolocated package, the user can get the following details.
+The user can get the following details.
 
 * Latitude
     
@@ -95,11 +95,7 @@ By using the react-geolocated package, the user can get the following details.
         
         **<mark>Also, make sure you have enabled the geolocation in your browser and ask user permission to use it.</mark>**
         
-* ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673957194048/e32db40a-1bff-4c0d-bf1b-6ee4619ee14f.png align="center")
-    
-    Let's break down the code:-
-    
-* ![Another Mental Breakdown Anxiety GIF - Another Mental Breakdown Anxiety Nervous GIFs](https://media.tenor.com/T_E6vkKKKtMAAAAd/another-mental-breakdown-anxiety.gif align="center")
+* Let's break down the code:-
     
 
 ```javascript
@@ -120,7 +116,7 @@ We define a functional component `MyComponent` and inside it we use `useState` h
 },[])
 ```
 
-**<mark>We use the </mark>** `useEffect` **<mark> hook to run some code on component mount (when the component is first rendered on the page).</mark>**
+**<mark>We use the </mark>** `useEffect` **<mark>hook to run some code on component mount (when the component is first rendered on the page).</mark>**
 
 ```javascript
     navigator.geolocation.getCurrentPosition(position => {
