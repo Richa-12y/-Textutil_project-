@@ -79,16 +79,16 @@ sheCode</sub>
 </body>
 
 </html>
-
-
 ```
 
 %[https://codepen.io/Richa-12y/pen/YzOpavj] 
 
-# **🎯** Conclusion**!**
+# **🎯** Conclusion\*\*!\*\*
 
 To summarize, while it is common for websites to use non-semantic HTML code like &lt;div&gt; to define different parts of a web page, using semantic HTML elements like &lt;nav&gt;, &lt;header&gt;, and &lt;footer&gt; provides several benefits. These benefits include improved accessibility, maintainability, and search engine optimization. By using semantic HTML, we can create web pages that are easier to understand and use, both for human users and machines like search engines and screen readers.
 
 # **🎯 Wrap Up!!**
+
+![Happy Korean Drama GIF by The Swoon](https://media2.giphy.com/media/d62M7d8yzwpWPIDhz5/giphy.gif?cid=ecf05e47mfa0utoyyu3icfbg4tz3ofrqqdgvncdfsueoxsds&rid=giphy.gif&ct=g align="center")
 
 Thank you for taking the time to read my blog on the importance of using HTML Semantic Elements in web development. If you found this information helpful, please share it with your network to help spread awareness of the benefits of semantic HTML. **<mark>Your support and feedback are greatly appreciated!</mark>**
