@@ -15,7 +15,7 @@ tags: programming, web-development, html5, beginners, html-tags
 
 ## HTML5 in a point-wise manner with examples:
 
-1. **New Elements:** <mark> HTML5 introduces several new semantic elements that were not available in HTML.</mark> These elements are designed to make the structure of web pages more meaningful and improve the accessibility of the content. For example, HTML5 has new elements like `<header>`, `<nav>`, `<article>`, `<footer>`, `<section>`, `<aside>`, etc., which were not present in HTML.
+1. **New Elements:** <mark>HTML5 introduces several new semantic elements that were not available in HTML.</mark> These elements are designed to make the structure of web pages more meaningful and improve the accessibility of the content. For example, HTML5 has new elements like `<header>`, `<nav>`, `<article>`, `<footer>`, `<section>`, `<aside>`, etc., which were not present in HTML.
     
 2. **Multimedia Support:** <mark>HTML5 includes native support for multimedia elements such as</mark> `<video>` and `<audio>` tags. This eliminates the need for third-party plugins like Adobe Flash Player to play multimedia content. For example, the following code plays a video using the HTML5 `<video>` tag:
     
@@ -36,7 +36,7 @@ tags: programming, web-development, html5, beginners, html-tags
 1. **Improved APIs:** HTML5 introduces several new APIs that allow web developers to create interactive web applications. For example, the HTML5 Canvas API allows developers to draw graphics and animations on a web page using JavaScript. Similarly, the HTML5 Geolocation API allows web applications to determine the user's location.
     
 2. ```javascript
-    navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+     navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
     ```
     
 3. **Better Compatibility:** HTML5 is designed to be backward-compatible with older versions of HTML. This means that web pages written in HTML can be easily upgraded to HTML5 without any major changes. For example, an HTML web page can be converted to HTML5 by simply adding the HTML5 doctype at the beginning of the document:
@@ -51,21 +51,20 @@ tags: programming, web-development, html5, beginners, html-tags
           <!-- content goes here -->
        </body>
     </html>
-    
     ```
     
     ### Table summarizing the differences between HTML and HTML5
     
     ![Showtime Lets Go GIF - Showtime Lets Go Do It GIFs](https://media.tenor.com/vK0pxbW408kAAAAC/showtime-lets-go.gif align="left")
     
-    | **Feature** | **HTML** | **HTML5** |
-    | --- | --- | --- |
-    | New Semantic Elements | No | Yes |
-    | Multimedia Support | Limited | Yes |
-    | Form Controls | Limited | Yes |
-    | Improved APIs | Limited | Yes |
-    | Better Compatibility | No | Yes |
-    
+
+| **Feature** | **HTML** | **HTML5** |
+| --- | --- | --- |
+| New Semantic Elements | No | Yes |
+| Multimedia Support | Limited | Yes |
+| Form Controls | Limited | Yes |
+| Improved APIs | Limited | Yes |
+| Better Compatibility | No | Yes |
 
 As you can see, <mark>HTML5 introduces several new features and improvements over HTML, including new semantic elements, better multimedia support, new form controls, improved APIs, and better compatibility with older versions of HTML. The</mark>se improvements make it easier for developers to create more accessible, interactive, and dynamic web pages.
 
