@@ -34,7 +34,7 @@ Before we dive into web scraping with Python and BeautifulSoup, you'll need a fe
     
     This documentation provides detailed information about how to use BeautifulSoup for web scraping and parsing HTML and XML documents. It includes examples, explanations of various methods and functions and best practices for web scraping. It's an excellent resource to accompany your learning journey.
     
-3. **<mark>HTML Basics</mark>**: A basic understanding of HTML structure will be helpful. Don't worry; you don't need to be an expert. Knowing the difference between tags, attributes, and elements will suffice.  
+3. **<mark>HTML Basics</mark>**: A basic understanding of HTML structure will be helpful. Don't worry; you don't need to be an expert. Knowing the difference between tags, attributes, and elements will suffice.
     
     ## **<sup>✨</sup>Getting Started with Web Scraping**
     
@@ -45,7 +45,7 @@ Before we dive into web scraping with Python and BeautifulSoup, you'll need a fe
 
 ### **1\. Choose a Website to Scrape**
 
-For this beginner's guide, let's pick a simple website to scrape. I'll use a hypothetical website that lists information about books. We'll extract book titles, authors, and prices.
+For this beginner's guide, let's pick a simple website to scrape. I'll use a hypothetical website that lists information about Movies. We'll extract allMovie in txt.
 
 ### **2\. Inspect the Web Page**
 
@@ -65,7 +65,6 @@ To fetch the web page's HTML content, you can use the `requests` library. If you
 
 ```python
 pip install requests
-
 ```
 
 Let's understand this with a practical example. We'll work on a small project together so that you can grasp the concepts more effectively.
@@ -104,7 +103,6 @@ transcript = box.find('div', class_='full-script').get_text(strip=True, separato
 # Export the extracted data (transcript) to a text file with the same name as the movie title
 with open(f'{title}.txt', 'w', encoding='utf-8') as file:
     file.write(transcript)
-
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694276254857/7e3981e6-c424-44ac-a3a4-3a8fed2285e0.png align="center")
@@ -286,7 +284,6 @@ for page in range(1, int(last_page) + 1):
         except:
             print('------ Link not working -------')
             print(link)
-
 ```
 
 In this code:
@@ -334,7 +331,7 @@ You've learned how to extract valuable data from websites, and the possibilities
 
 **But remember, this is just the beginning of your web scraping journey. There are more advanced topics to explore, such as handling pagination, dealing with dynamic websites, and implementing techniques to avoid being banned by websites—so stay curious and keep learning!**
 
-I*'m thrilled to be back on the blogging scene, and I'm committed to sharing valuable knowledge and insights with you. If you found this guide helpful, don't forget to like and share my blog. Feel free to leave comments and questions; I'll be here to assist you on your web scraping adventure.*
+I\*'m thrilled to be back on the blogging scene, and I'm committed to sharing valuable knowledge and insights with you. If you found this guide helpful, don't forget to like and share my blog. Feel free to leave comments and questions; I'll be here to assist you on your web scraping adventure.\*
 
 And remember, stay tuned for weekly web scraping knowledge-sharing right here! Together, we'll dive deeper into the world of web scraping and uncover exciting opportunities for data acquisition and analysis. **Happy scraping, and see you in the next blog post! 🚀📚**
 
