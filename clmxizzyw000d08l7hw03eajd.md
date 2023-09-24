@@ -45,7 +45,7 @@ Before we start, make sure you have Python installed on your computer. Additiona
 ![GIFs Debt Paid Winning GIF](https://i.gifer.com/origin/35/3537e062025ce96f3d1fa865d8bc9d12_w200.gif align="center")
 
 ```python
-pythonCopy codeimport os
+import os
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -73,7 +73,7 @@ import time
     
     `clean_for_file_name(text)`: Similar to the previous function, this one cleans the input text to make it suitable for file names.
     
-    **3\.** `scrape_flipkart_images(search_query, starting_page, ending_page)` **Function**
+    **3.** `scrape_flipkart_images(search_query, starting_page, ending_page)` **Function**
     
     This is the main function that performs web scraping to download product images from Flipkart. It takes three parameters:
     
