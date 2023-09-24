@@ -21,7 +21,7 @@ tags: python, webdev, pandas, beautifulsoup, webscraping
 
 ### 🐱‍👓Unlocking the Power of Web Scraping
 
-***Imagine having the ability to collect product details and images from Flipkart automatically.*** Whether you're a price-savvy shopper or an aspiring data scientist, web scraping can be your secret weapon. **Let's dive in and uncover the magic behind it.**
+***Imagine having the ability to collect images from Flipkart automatically.*** Whether you're a price-savvy shopper or an aspiring data scientist, web scraping can be your secret weapon. **Let's dive in and uncover the magic behind it.**
 
 # **🐱‍💻Setting Up Your Web Scraping Environment**
 
@@ -166,7 +166,7 @@ A nested folder is created using the cleaned product name as the folder name wit
 **12\. Downloading and Saving Images**
 
 ```python
-pythonCopy codeimage_element = card.find("img", class_="_2r_T1I")
+image_element = card.find("img", class_="_2r_T1I")
 
 if image_element:
     img_url = image_element.get("src")
