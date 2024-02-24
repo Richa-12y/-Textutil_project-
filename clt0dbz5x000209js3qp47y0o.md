@@ -3,6 +3,7 @@ title: "🎯Building Tabbed Navigation in React: A Beginner's Guide👉"
 datePublished: Sat Feb 24 2024 17:42:07 GMT+0000 (Coordinated Universal Time)
 cuid: clt0dbz5x000209js3qp47y0o
 slug: building-tabbed-navigation-in-react-a-beginners-guide
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708796888057/d53c52e9-8023-4718-bb53-4a383187d1ab.png
 tags: web-development, web, webdev, reactjs, frontend-development
 
 ---
@@ -11,7 +12,7 @@ tags: web-development, web, webdev, reactjs, frontend-development
 
 ![Carry Minati Toh Kaise Hai Aap Log GIF - Carry Minati Toh Kaise Hai Aap Log How Are You GIFs](https://media1.tenor.com/m/2ltLfU_1wRUAAAAC/carry-minati-toh-kaise-hai-aap-log.gif align="center")
 
-**Tabs are a common user interface component used for navigation between different sections of a webpage or application.** ***In this blog post, we'll create a simple tabbed navigation component using React.***
+**Tabs are a common user interface component used for navigation between different sections of a webpage or application.*In this blog post, we'll create a simple tabbed navigation component using React.***
 
 **Step 1: Setting Up the Project**
 
@@ -39,10 +40,9 @@ Next, we'll create a few files to organize our code:
     
 * ![I Like A Good Challenge Kriti Sanon Sticker - I Like A Good Challenge Kriti Sanon Pinkvilla Stickers](https://media.tenor.com/muuruN_i0JMAAAAi/i-like-a-good-challenge-kriti-sanon.gif align="center")
     
-      
     <mark>I will share folder structure image for review below.</mark> I hope you have knowledge of React.js because I won't be covering the basics in this blog. If you have any questions, you can refer to my previous blog where I explained React basics. I will provide the GitHub link at the end of the blog so you can clone the repository or check out the code. Please focus on learning.
     
-    ![]( align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708796911685/c89a29b4-9bcf-49f6-b8de-44a9f857b7f0.png align="center")
     
     **Step 2: Implementing the Tab Components**
     
@@ -117,7 +117,6 @@ function TabsContainer({
 export default TabsContainer;
 ```
 
-  
 This component renders a `<div>` element with a `tab-container` class. It includes two `Tab` components representing each tab in our navigation.
 
 **Step 4: Integrating with the App**
@@ -177,7 +176,7 @@ This component manages the active tab state using the `useState` hook. It passes
 
 **Step 5: Styling the App and Tabs**
 
-Finally, we'll add some CSS styles to `tab.css` and `App.css`to customize the appearance of our tabs. Here's a basic example:  
+Finally, we'll add some CSS styles to `tab.css` and `App.css`to customize the appearance of our tabs. Here's a basic example:
 
 ![Playing Guitar Joe Penna GIF - Playing Guitar Joe Penna Mystery Guitar Man GIFs](https://media1.tenor.com/m/6eE-A2Ah9M8AAAAC/playing-guitar-joe-penna.gif align="center")
 
@@ -246,7 +245,7 @@ Finally, we'll add some CSS styles to `tab.css` and `App.css`to customize the ap
 } */
 ```
 
-With these steps, we've created a simple tabbed navigation component in React. Users can easily navigate between different sections of the application by clicking on the tabs, and the active tab is highlighted accordingly.  
+With these steps, we've created a simple tabbed navigation component in React. Users can easily navigate between different sections of the application by clicking on the tabs, and the active tab is highlighted accordingly.
 
 # **🎯 Wrap Up!!**
 
