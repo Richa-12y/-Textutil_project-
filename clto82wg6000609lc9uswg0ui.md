@@ -8,7 +8,7 @@ tags: womenwhocode, womenwhotech, iwd2024
 
 ---
 
-**Hello everyone <sup>👩‍💻👨‍💻</sup>, it's Richa here. Today, I want to share my journey with you, especially on this Women's Day.** I've seen the #IWD2024 tag floating around, and it inspired me to reflect on <mark> my own experiences and perhaps offer a beacon of hope to those who might be facing similar challenges</mark>
+**Hello everyone <sup>👩‍💻👨‍💻</sup>, it's Richa here. Today, I want to share my journey with you, especially on this Women's Day.** I've seen the #IWD2024 tag floating around, and it inspired me to reflect on <mark>my own experiences and perhaps offer a beacon of hope to those who might be facing similar challenges</mark>
 
 ![Kristen Stewart GIF by Charlie's Angels](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmxseWxobGRudjhpM2lpdzYwZ2Vya3Biemh3bmJucXVnejV6MGdyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0oC4dyGPc5nIK5mrj/giphy.gif align="center")
 
@@ -16,7 +16,7 @@ tags: womenwhocode, womenwhotech, iwd2024
 
 ![When Your Friends Are Roasting You in a Group Text](https://media1.popsugar-assets.com/files/thumbor/JiJ5qQd-6uwvVyt-4x0r1NiORyY=/fit-in/500x273/top/filters:format_auto():upscale()/2016/03/07/904/n/1922398/9b3560cc7bbfcfc6_kr1.gif align="center")
 
-In my blog, I've documented my journey from a dreamer to a developer. Despite the naysayers, I persisted, always reminding myself that <mark> my gender doesn't define my capabilities.</mark> I embraced the role of a perpetual student, always eager to learn and unafraid to seek help when needed, regardless of the source.
+In my blog, I've documented my journey from a dreamer to a developer. Despite the naysayers, I persisted, always reminding myself that <mark>my gender doesn't define my capabilities.</mark> I embraced the role of a perpetual student, always eager to learn and unafraid to seek help when needed, regardless of the source.
 
 Today, **I proudly proclaim myself as a developer. But my journey doesn't end there. I've also taken on the role of a mentor, guiding and supporting aspiring developers who, like me, dare to defy stereotypes and pursue their passion for technology.**
 
@@ -55,6 +55,6 @@ These are just a few of the many lessons I've learned on my journey as a develop
 
 # **🎯 Wrap Up!!**
 
-If you're interested in reading more about my journey and the lessons I've learned along the way, feel free to check out my blog \[<mark>link</mark>\]. Remember, we're all in this together, and together, we can make a difference. **<mark>Happy Women's Day! #IWD2024</mark>**  
+If you're interested in reading more about my journey and the lessons I've learned along the way, feel free to check out my blog [dev-retro-2022](https://richak.hashnode.dev/from-technical-support-executive-to-developer-dev-retro-2022). Remember, we're all in this together, and together, we can make a difference. **<mark>Happy Women's Day! #IWD2024</mark>**
 
 ![Explore okay girl bye GIFs](https://media2.giphy.com/media/d62M7d8yzwpWPIDhz5/200w.gif?cid=6c09b952mmsw7ntfw46al90d7j8j8ctr1f4flalxgln7wb26&ep=v1_gifs_search&rid=200w.gif&ct=g align="center")
