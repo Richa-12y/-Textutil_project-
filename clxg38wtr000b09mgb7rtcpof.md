@@ -1,6 +1,6 @@
 ---
 title: "SQL Simplified: Quick Reference Guide for Coding and Interviews"
-seoDescription: "Check out my latest blog post on richak.hashnode.dev! It's an essential SQL Cheat Sheet covering all the basics, perfect for beginners and interview prep. "
+seoDescription: "Check out my latest blog post on richak.hashnode.dev! It's an essential SQL Cheat Sheet covering all the basics, perfect for beginners and interview prep."
 datePublished: Sat Jun 15 2024 12:22:56 GMT+0000 (Coordinated Universal Time)
 cuid: clxg38wtr000b09mgb7rtcpof
 slug: sql-simplified-quick-reference-guide-for-coding-and-interviews
@@ -222,7 +222,7 @@ DELETE FROM table_name;
 ```
 
 ```sql
-sDELETE FROM table_name WHERE condition;
+DELETE FROM table_name WHERE condition;
 -- Deletes rows that match the condition.
 ```
 
@@ -235,7 +235,7 @@ sDELETE FROM table_name WHERE condition;
 ### **<mark>Constraints</mark>**
 
 ```sql
-sqlCopy codeCREATE TABLE table1 (
+CREATE TABLE table1 (
  col1 NUMBER PRIMARY KEY,
  col2 NUMBER NOT NULL,
  FOREIGN KEY (col2) REFERENCES table2(col2),
