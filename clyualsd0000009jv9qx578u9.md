@@ -10,7 +10,7 @@ tags: react-router, frontend, developer, reactjs, redux, frontend-development, r
 
 ---
 
-Hey Coders👩‍💻👨‍💻!" In this blog post, we're going to explore how Redux Toolkit can simplify state management in your React applications." to "In this blog post, we're going to explore how Redux Toolkit can simplify state management in your React applications." for clarity and conciseness.
+Hey Coders👩‍💻👨‍💻!" In this blog post, we're going to explore how Redux Toolkit can simplify state management in your React applications."
 
 ### **🎇Introduction:**
 
@@ -71,19 +71,19 @@ src/
     Your Redux store is created using `configureStore` from Redux Toolkit in `store.js`. It combines multiple slices (reducers) into a single store:
     
     * ```javascript
-        // store.js
-        import { configureStore } from "@reduxjs/toolkit";
-        import counterReducer from "../pages/counter/counter.slice";
-        import tableReducer from "../pages/table/table.slice";
-        
-        const store = configureStore({
-          reducer: {
-            counter: counterReducer,
-            tableData: tableReducer,
-          },
-        });
-        
-        export default store;
+          // store.js
+          import { configureStore } from "@reduxjs/toolkit";
+          import counterReducer from "../pages/counter/counter.slice";
+          import tableReducer from "../pages/table/table.slice";
+          
+          const store = configureStore({
+            reducer: {
+              counter: counterReducer,
+              tableData: tableReducer,
+            },
+          });
+          
+          export default store;
         ```
         
     * ![s reactions share GIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazFwa2JqaXoxcG9qb3NvYjRuMWdocjRpeTJ1NzBvNzUxb3psczRqdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Uh1ZPq7mA7xa8/giphy.gif align="center")
@@ -132,7 +132,7 @@ src/
             * Finally, we export the configured Redux store (`store`) so that it can be imported and used in other parts of the application, such as components that need to access or update the application state.
                 
         
-        ### **Why** `configureStore` is used:
+        ### **Why**`configureStore` is used:
         
         * `configureStore` is used here because it simplifies the setup of a Redux store by automatically configuring Redux Toolkit's recommended middleware, including `redux-thunk` for async logic. It also enables Redux DevTools Extension by default, providing a better development experience.
             
@@ -143,38 +143,38 @@ src/
             Slices define how your state can be updated. They include actions and reducers, making it easier to manage immutable state updates:
             
             * ```javascript
-                // counter.slice.js
-                import { createSlice } from "@reduxjs/toolkit";
-                
-                const counterSlice = createSlice({
-                  name: "counter",
-                  initialState: {
-                    count: 0,
-                    setHidden: false,
-                  },
-                  reducers: {
-                    handleIncrement: (state) => {
-                      state.count++;
+                  // counter.slice.js
+                  import { createSlice } from "@reduxjs/toolkit";
+                  
+                  const counterSlice = createSlice({
+                    name: "counter",
+                    initialState: {
+                      count: 0,
+                      setHidden: false,
                     },
-                    handleDecrement: (state) => {
-                      state.count--;
+                    reducers: {
+                      handleIncrement: (state) => {
+                        state.count++;
+                      },
+                      handleDecrement: (state) => {
+                        state.count--;
+                      },
+                      handleReset: (state) => {
+                        state.count = 0;
+                      },
+                      handleToggle: (state) => {
+                        state.setHidden = !state.setHidden;
+                      },
                     },
-                    handleReset: (state) => {
-                      state.count = 0;
-                    },
-                    handleToggle: (state) => {
-                      state.setHidden = !state.setHidden;
-                    },
-                  },
-                });
-                
-                export const {
-                  handleIncrement,
-                  handleDecrement,
-                  handleToggle,
-                  handleReset,
-                } = counterSlice.actions;
-                export default counterSlice.reducer;
+                  });
+                  
+                  export const {
+                    handleIncrement,
+                    handleDecrement,
+                    handleToggle,
+                    handleReset,
+                  } = counterSlice.actions;
+                  export default counterSlice.reducer;
                 ```
                 
                 **Importing Dependencies:**
@@ -282,7 +282,7 @@ src/
                     
                     * We import `useSelector` and `useDispatch` hooks from `react-redux`. These hooks are used to access the Redux store state and dispatch actions, respectively.
                         
-                2. **Using** `useSelector`:
+                2. **Using**`useSelector`:
                     
                     ```javascript
                     const data = useSelector((state) => state.counter);
@@ -290,7 +290,7 @@ src/
                     
                     * `useSelector` is called with a selector function `(state) => state.counter`. It selects the `counter` slice from the Redux store state (`state.counter`).
                         
-                3. **Using** `useDispatch`:
+                3. **Using**`useDispatch`:
                     
                     ```javascript
                     const dispatch = useDispatch();
@@ -332,7 +332,7 @@ src/
             * ![sick mr beans GIF](https://media1.giphy.com/media/8Ik1Eoxt7jnd6/200.gif?cid=ecf05e47cakzu8szlxfs2ctspdbb66kw7suopquif9225dhz&ep=v1_gifs_search&rid=200.gif&ct=g align="center")
                 
             
-            **Let's dive into how we handle API calls and filter data using Redux Toolkit in** `table.slice.js`.
+            **Let's dive into how we handle API calls and filter data using Redux Toolkit in**`table.slice.js`.
             
         
         ```javascript
@@ -556,136 +556,136 @@ src/
     Now, let's explain the `Table` component which uses Redux for state management and renders data fetched from the API:
     
 * ```javascript
-    import React, { useEffect, useState } from "react";
-    import "./table.css";
-    import { useDispatch, useSelector } from "react-redux";
-    import {
-      deleteUserData,
-      fetchTableData,
-      onFilterUserData,
-      updateEmloyeer,
-    } from "./table.slice";
-    import { useNavigate } from "react-router-dom";
-    const Table = () => {
-      const tableDetails = useSelector((state) => state.tableData);
-      const [searchInput, setSearchInput] = useState("");
-      const dispatch = useDispatch();
-    
-      React.useEffect(() => {
-        dispatch(fetchTableData());
-      }, []);
-    
-      useEffect(() => {
-        dispatch(onFilterUserData(searchInput));
-      }, [searchInput]);
-      const navigate = useNavigate();
-    
-      const handleRowClick = (uid) => {
-        navigate(`/table/${uid}`);
-      };
-    
-      const handleEdit = (editId, newFirstName, newLastName) => {
-        console.log(editId);
-        const fullName = prompt(
-          "Enter new full name (First Last):",
-          `${newFirstName} ${newLastName}`
-        );
-    
-        if (fullName !== null) {
-          const [newFirstName, newLastName] = fullName.split(" ");
-          dispatch(
-            updateEmloyeer({
-              id: editId,
-              first_name: newFirstName,
-              last_name: newLastName,
-            })
+      import React, { useEffect, useState } from "react";
+      import "./table.css";
+      import { useDispatch, useSelector } from "react-redux";
+      import {
+        deleteUserData,
+        fetchTableData,
+        onFilterUserData,
+        updateEmloyeer,
+      } from "./table.slice";
+      import { useNavigate } from "react-router-dom";
+      const Table = () => {
+        const tableDetails = useSelector((state) => state.tableData);
+        const [searchInput, setSearchInput] = useState("");
+        const dispatch = useDispatch();
+      
+        React.useEffect(() => {
+          dispatch(fetchTableData());
+        }, []);
+      
+        useEffect(() => {
+          dispatch(onFilterUserData(searchInput));
+        }, [searchInput]);
+        const navigate = useNavigate();
+      
+        const handleRowClick = (uid) => {
+          navigate(`/table/${uid}`);
+        };
+      
+        const handleEdit = (editId, newFirstName, newLastName) => {
+          console.log(editId);
+          const fullName = prompt(
+            "Enter new full name (First Last):",
+            `${newFirstName} ${newLastName}`
           );
-        }
-      };
-    
-      const handleDelete = (userId) => {
-        console.log("Deleting user with ID:", userId);
-        dispatch(deleteUserData(userId));
-      };
-    
-      return (
-        <div className="table-outside-container">
-          {tableDetails.loading && <h1>Loding....</h1>}
-          {tableDetails.error && <hi>{tableDetails.error}</hi>}
-          <div class="wrapper">
-            <div class="search-input">
-              <input
-                type="text"
-                placeholder="Type to search..."
-                value={searchInput}
-                onChange={(e) => setSearchInput(e.target.value)}
-              />
-              <div class="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  fill="currentColor"
-                  class="bi bi-search"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                </svg>
+      
+          if (fullName !== null) {
+            const [newFirstName, newLastName] = fullName.split(" ");
+            dispatch(
+              updateEmloyeer({
+                id: editId,
+                first_name: newFirstName,
+                last_name: newLastName,
+              })
+            );
+          }
+        };
+      
+        const handleDelete = (userId) => {
+          console.log("Deleting user with ID:", userId);
+          dispatch(deleteUserData(userId));
+        };
+      
+        return (
+          <div className="table-outside-container">
+            {tableDetails.loading && <h1>Loding....</h1>}
+            {tableDetails.error && <hi>{tableDetails.error}</hi>}
+            <div class="wrapper">
+              <div class="search-input">
+                <input
+                  type="text"
+                  placeholder="Type to search..."
+                  value={searchInput}
+                  onChange={(e) => setSearchInput(e.target.value)}
+                />
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-search"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                  </svg>
+                </div>
               </div>
             </div>
+            <section className="table-inside-conatiner">
+              {tableDetails.filterUserData.length > 0 && (
+                <table style={{ width: "90%" }}>
+                  <tr>
+                    <th>Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Full Details</th>
+                    <th>Action</th>
+                  </tr>
+                  <tbody>
+                    {tableDetails?.filterUserData.map((userData, index) => (
+                      <tr key={index}>
+                        <td>{userData.id}</td>
+                        <td>{userData?.first_name}</td>
+                        <td>{userData?.last_name}</td>
+                        <td onClick={() => handleRowClick(userData.id)}>Detail</td>
+                        <td className="button-conatiner">
+                          <button
+                            className="edit"
+                            onClick={() =>
+                              handleEdit(
+                                userData.id,
+                                userData.first_name,
+                                userData.last_name
+                              )
+                            }
+                          >
+                            Edit
+                          </button>
+                          <button
+                            className="delete"
+                            onClick={() => handleDelete(userData.id)}
+                          >
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+      
+              {tableDetails?.filterUserData === 0 && (
+                <p>No matching records found.</p>
+              )}
+            </section>
           </div>
-          <section className="table-inside-conatiner">
-            {tableDetails.filterUserData.length > 0 && (
-              <table style={{ width: "90%" }}>
-                <tr>
-                  <th>Id</th>
-                  <th>First Name</th>
-                  <th>Last Name</th>
-                  <th>Full Details</th>
-                  <th>Action</th>
-                </tr>
-                <tbody>
-                  {tableDetails?.filterUserData.map((userData, index) => (
-                    <tr key={index}>
-                      <td>{userData.id}</td>
-                      <td>{userData?.first_name}</td>
-                      <td>{userData?.last_name}</td>
-                      <td onClick={() => handleRowClick(userData.id)}>Detail</td>
-                      <td className="button-conatiner">
-                        <button
-                          className="edit"
-                          onClick={() =>
-                            handleEdit(
-                              userData.id,
-                              userData.first_name,
-                              userData.last_name
-                            )
-                          }
-                        >
-                          Edit
-                        </button>
-                        <button
-                          className="delete"
-                          onClick={() => handleDelete(userData.id)}
-                        >
-                          Delete
-                        </button>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            )}
-    
-            {tableDetails?.filterUserData === 0 && (
-              <p>No matching records found.</p>
-            )}
-          </section>
-        </div>
-      );
-    };
-    
-    export default Table;
+        );
+      };
+      
+      export default Table;
     ```
     
     #### Code Explanation:
@@ -849,7 +849,6 @@ src/
             
         * Handles loading state (`tableDetails.loading`) and error state (`tableDetails.error`) for better user experience.
             
-        
     
     ### **Conclusion:**
     
