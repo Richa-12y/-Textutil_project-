@@ -5,6 +5,7 @@ seoDescription: "Discover my journey at Capgemini, where a culture of continuous
 datePublished: Sun Nov 10 2024 13:25:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm3bmmt9m000209l24rypey36
 slug: inside-capgemini-opportunities-challenges-and-my-path-to-growth-in-tech
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731247250907/f8e6fd42-78fe-4890-8f83-97256ff4e77b.png
 tags: blogging, technology, community, tech, capgemini
 
 ---
