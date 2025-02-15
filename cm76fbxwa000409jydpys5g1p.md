@@ -3,13 +3,13 @@ title: "My Web Development Journey – From Curious Beginner to Confident Coder 
 seoTitle: "How It All Started: The Accidental Discovery 🤯"
 seoDescription: "How It All Started: The Accidental Discovery 🤯
 
-I knew absolutely nothing about web development. Like, literally zero. Writing code? Designing websites? "
+I knew absolutely nothing about web development. Like, literally zero. Writing code? Designing websites?"
 datePublished: Sat Feb 15 2025 16:40:34 GMT+0000 (Coordinated Universal Time)
 cuid: cm76fbxwa000409jydpys5g1p
 slug: my-web-development-journey-from-curious-beginner-to-confident-coder
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739636755760/0943f8c3-8035-40d4-86ba-612d6d19ee23.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1739637590482/9d7b452f-bfe2-4634-b88a-cb8172a4656b.jpeg
-tags: js, web-development, webdev, mentorship, roadmap, storytelling
+tags: webdevelopment, js, web-development, webdev, mentorship, roadmap, womenintech, storytelling, frontend-developer, codinglife, webdevelopment-frontenddeveloper-careerchange-codingjourney-learnprogramming-html-css-javascript-reactjs-developer-techcareer-codinglife-softwaredevelopment-womenintech-selftaughtdeveloper-mentorship, selftaughtdeveloper
 
 ---
 
