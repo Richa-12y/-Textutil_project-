@@ -192,7 +192,13 @@ Example:
 
 ![Computer Love GIF](https://media0.giphy.com/media/IbaHSmEeJGqk/200.gif?cid=790b7611xhg276v6ycq3ewznyqedlmk4rnblu7sre4uexz39&ep=v1_gifs_search&rid=200.gif&ct=g align="center")
 
-👉 **Don’t just build websites, prepare for interviews too!** After creating projects, spend time reviewing common interview questions. 👉 **Make your own notes in your own words.** This will help you remember better. 👉 **Understand the concepts, don’t just memorize definitions.** If the interviewer is an old-school type, they may want textbook answers, but modern interviews focus on understanding. 👉 **Practice explaining concepts out loud.** Teaching someone (or pretending to) helps reinforce learning.
+👉 **Don’t just build websites, prepare for interviews too!** After creating projects, spend time reviewing common interview questions.
+
+👉 **Make your own notes in your own words.** This will help you remember better.
+
+👉 **Understand the concepts, don’t just memorize definitions.** If the interviewer is an old-school type, they may want textbook answers, but modern interviews focus on understanding.
+
+👉 **Practice explaining concepts out loud.** Teaching someone (or pretending to) helps reinforce learning.
 
 Need **1-on-1 interview guidance** or **mock interviews**? I’d love to help! 😊
 
