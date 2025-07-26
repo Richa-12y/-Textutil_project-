@@ -74,10 +74,10 @@ This **pattern recognition trick** helped me memorize combos quickly!
 
 * I tried reading the *Minna no Nihongo* greeting section **without Romaji**, and I could read almost everything fluently. That felt amazing! 💖
     
+* ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753535007576/3802fcf4-ee2d-46cb-b6b5-891784731367.png align="center")
+    
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753534423986/a207fbc8-1e39-4416-b7e1-677ade5d39c0.png align="center")
-
-  
 
 ---
 
