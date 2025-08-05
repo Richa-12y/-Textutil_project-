@@ -1,5 +1,5 @@
 ---
-title: "🌸 Day 12 – Cleaning, Shopping & a Bit of Self-Introduction in Japanese 🇯🇵🧼"
+title: "🌸 Day 13 – Cleaning, Shopping & a Bit of Self-Introduction in Japanese 🇯🇵🧼"
 datePublished: Sat Aug 02 2025 18:10:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmdukii54000702jv2zgobk26
 slug: day-12-cleaning-shopping-and-a-bit-of-self-introduction-in-japanese
