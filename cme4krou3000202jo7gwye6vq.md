@@ -8,26 +8,34 @@ tags: learning, japanese, learning-journey
 
 ---
 
+Here’s your **storytelling-style blog** for today’s Japanese class about learning the months:
+
+---
+
+**Day 20 – A Year in Japanese**
+
 This morning felt like opening a calendar—except every page was written in Japanese.
 
-In today’s class, Sensei smiled as she began, \*“Today, we’ll travel through the 20 days together.”\* No planes, no tickets—just words. Twelve of them, to be exact.
+In today’s class, Sensei smiled as she began, *“Today, we’ll travel through the year together.”* No planes, no tickets—just words. Twelve of them, to be exact.
 
-We started with \*\*January\*\* – \*ichigatsu (一月)\*, “the first month.” It felt like a fresh notebook, waiting to be filled. Then \*\*February\*\* – \*nigatsu (二月)\*, short and quick, just like the real thing.
+We started with **January** – *ichigatsu (一月)*, “the first month.” It felt like a fresh notebook, waiting to be filled. Then **February** – *nigatsu (二月)*, short and quick, just like the real thing.
 
-As we moved through \*sangatsu (三月)\*, \*shigatsu (四月)\*, and \*gogatsu (五月)\*, I imagined cherry blossoms, summer beginnings, and golden sunshine. Each month sounded like a step in a slow, deliberate dance.
+As we moved through *sangatsu (三月)*, *shigatsu (四月)*, and *gogatsu (五月)*, I imagined cherry blossoms, summer beginnings, and golden sunshine. Each month sounded like a step in a slow, deliberate dance.
 
-By the time we reached \*juunigatsu (十二月)\*—December—I could almost feel winter wrapping around me. The months weren’t just names anymore; they were tiny doorways to seasons, festivals, and memories I haven’t yet lived in Japan but can already picture.
+By the time we reached *juunigatsu (十二月)*—December—I could almost feel winter wrapping around me. The months weren’t just names anymore; they were tiny doorways to seasons, festivals, and memories I haven’t yet lived in Japan but can already picture.
 
 Learning them was simple:
 
-\* Numbers 1 to 12 in Japanese
+* Numbers 1 to 12 in Japanese
+    
+* Add **gatsu (月)**, meaning “month”  
+    That’s it. *Ichigatsu. Nigatsu. Sangatsu…* A rhythm, like a song you hum without realizing.
+    
 
-\* Add \*\*gatsu (月)\*\*, meaning “month”
-
-That’s it. \*Ichigatsu. Nigatsu. Sangatsu…\* A rhythm, like a song you hum without realizing.
-
-But as Sensei reminded us, \*“Language is not just vocabulary—it’s time itself. Every word you learn is a moment you can now live in another culture.”\*
+But as Sensei reminded us, *“Language is not just vocabulary—it’s time itself. Every word you learn is a moment you can now live in another culture.”*
 
 Today, I didn’t just memorize months. I felt a year pass in Japanese.
 
-\*\*またね (Mata ne)\*\* – until the next class.
+**またね (Mata ne)** – until the next class.
+
+---
