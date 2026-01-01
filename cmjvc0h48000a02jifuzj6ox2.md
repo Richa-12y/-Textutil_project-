@@ -2369,7 +2369,7 @@ You've read bundle sizes in this post, but how do **you** measure your actual pr
     
 * 300–500KB: Acceptable
     
-* \&gt; 500KB: Consider optimization
+* &gt; 500KB: Consider optimization
     
 
 ### Tool 1: webpack-bundle-analyzer (Best for bundler insight)
@@ -2594,7 +2594,7 @@ npm run bundle-check
 
 ## Honest Recommendations (From Experience)
 
-After 30+ years in this industry, here's what I'd genuinely choose for different scenarios:
+After 5+ years in this industry, here's what I'd genuinely choose for different scenarios:
 
 ### "I'm shipping a new SaaS product ASAP"
 
