@@ -5,6 +5,7 @@ seoDescription: "Master HTML for 2026: Learn semantics, accessibility, modern pr
 datePublished: Sat Jan 03 2026 11:28:42 GMT+0000 (Coordinated Universal Time)
 cuid: cmjy7z5sb000002ld712w8bep
 slug: master-html-like-a-pro-the-complete-developers-bible-for-2026
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/m_HRfLhgABo/upload/48bf919c1a18df4fe56b6f760b19f0a1.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1767439651714/c1463e45-e1db-4b94-9c98-ef9ddb53a7c2.jpeg
 tags: javascript, web-development, html, webdev, html5, hashnode
 
