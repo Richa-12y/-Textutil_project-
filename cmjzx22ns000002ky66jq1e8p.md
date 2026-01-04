@@ -5,7 +5,7 @@ seoDescription: "Guide to testing React with Jest and React Testing Library: bas
 datePublished: Sun Jan 04 2026 15:58:34 GMT+0000 (Coordinated Universal Time)
 cuid: cmjzx22ns000002ky66jq1e8p
 slug: complete-jest-and-react-testing-library-guide
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767541759140/b146dade-d5c3-49d1-afba-28502d28ee35.png
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/tZnbakTUcTI/upload/e05bb6b2990c4c77e5fdac9dfb873233.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1767542263948/249ff720-c230-47f4-b981-c2ebb4bec01d.jpeg
 tags: unit-testing, web-development, reactjs, typescript, frontend-development, jest
 
