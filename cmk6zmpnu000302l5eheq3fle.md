@@ -217,6 +217,7 @@ We’re creating new arrays to store results — and that’s totally fine here.
 
 let arr = [1, 2, 3, 4, 5, 6];
 const separateEvenOdd = (arr) => {
+  if(arr.length===0) return null
     let evenNumbers = [];
     let oddNumbers = [];
     for (let i = 0; i < arr.length; i++) {
@@ -243,6 +244,7 @@ console.log("Odd Numbers:", result.odd);   // Output: Odd Numbers: [1, 3, 5]
 
 ```javascript
 const separateEvenOdd = (arr) => {
+  if(arr.length===0) return null
   let evenNumbers = [];
   let oddNumbers = [];
 
