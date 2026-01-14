@@ -6,6 +6,7 @@ cuid: cmke6xtmk000202jo30cm8jxa
 slug: day-9-find-the-sum-of-all-positive-numbers-in-an-array-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768405276756/8592b3dd-d2b1-4895-9dca-e97478610fd6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1768405416031/a0f4aadb-c00e-4d64-aeff-54f3d42cccd7.png
+tags: javascript, web-development, reactjs, hashnode, dsa, dsa-series
 
 ---
 
