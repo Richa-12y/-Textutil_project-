@@ -6,6 +6,7 @@ cuid: cmkfdp52f001202leb1eaeg8c
 slug: day-10-finding-the-index-of-an-element-in-an-array
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768476765780/4171530d-e9d8-4596-a2c5-57f0869f0e15.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1768477238353/022f8ed4-65b7-4324-828d-52ecc5b3a830.png
+tags: javascript, web-development, learning, hashnode, dsa, learning-journey, dsa-series
 
 ---
 
