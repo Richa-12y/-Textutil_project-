@@ -406,16 +406,7 @@ If you understand this, you’re on the **right path**.
 
 ---
 
-## 💬 Final Thoughts
-
-This problem teaches me:
-
-* How indexing works
-    
-* How loops shift data
-    
-* Why temporary arrays exist
-    
+## 💬
 
 Don’t rush DSA.  
 **Understand → Practice → Repeat**
