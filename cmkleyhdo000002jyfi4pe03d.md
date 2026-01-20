@@ -197,32 +197,56 @@ Same logic, just opposite direction.
 
 ---
 
-Left Rotation Code
+```javascript
+//Rotate array by K elements
 
-function leftRotate(nums, k) {  
-let n = nums.length;  
-k = k % n;
+//  Right Rotation
+// • Left Rotation
+// • Using temporary array
+// • Step-by-step walkthrough
+// • Loop-by-loop thinking
 
-```plaintext
-let temp = [];
+// Array: [1, 2, 3, 4, 5, 6, 7]
+// k = 2
 
-for (let i = 0; i < k; i++) {
-    temp.push(nums[i]);
+// Expected Output:
+// [6, 7, 1, 2, 3, 4, 5]
+
+
+function rightRotate(nums, k) {
+
+    if (!Array.isArray(nums) || nums.length === 0) {
+        return nums;
+    }
+
+    let n = nums.length;
+    k = k % n;
+
+    if (k === 0) {
+        return nums;
+    }
+
+    let temp = [];
+
+    for (let i = n - k; i < n; i++) {
+        temp.push(nums[i]);
+    }
+
+    for (let i = n - k - 1; i >= 0; i--) {
+        nums[i + k] = nums[i];
+    }
+
+    for (let i = 0; i < k; i++) {
+        nums[i] = temp[i];
+    }
+
+    return nums;
 }
-
-for (let i = k; i < n; i++) {
-    nums[i - k] = nums[i];
-}
-
-let index = 0;
-for (let i = n - k; i < n; i++) {
-    nums[i] = temp[index++];
-}
-
-return nums;
+// Example usage:
+let arr = [1, 2, 3, 4, 5, 6, 7];
+let k = 2;
+console.log(rightRotate(arr, k)); // Output: [6, 7, 1, 2, 3, 4, 5]
 ```
-
-}
 
 ---
 
