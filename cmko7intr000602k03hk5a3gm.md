@@ -6,6 +6,7 @@ datePublished: Wed Jan 21 2026 15:57:53 GMT+0000 (Coordinated Universal Time)
 cuid: cmko7intr000602k03hk5a3gm
 slug: day-16-of-my-dsa-journey
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769009876505/ffc92ba0-ff54-49d1-9636-c36966aafc2e.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1769012608774/f71594ae-9075-4666-a432-481e70312c85.png
 tags: javascript, web-development, learning, hashnode, dsa, learning-journey, dsa-series, dsawithricha
 
 ---
