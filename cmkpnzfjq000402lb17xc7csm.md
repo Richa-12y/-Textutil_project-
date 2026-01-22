@@ -244,8 +244,7 @@ console.log(result); // Output: [1, 2, 3, 4, 5]
 // const result = unionOfArrays(arr1, arr2);
 // console.log(result); // Output: [1, 2, 3, 4, 5]
 
-//please expain the code with input and output as well
-// lik step by step walkthrough
+//step by step walkthrough
 // i=0; 0<4;->true 
 // unionSet = {}
 // unionSet = {1}
