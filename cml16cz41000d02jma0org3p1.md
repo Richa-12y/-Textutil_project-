@@ -1,10 +1,10 @@
 ---
-title: "🌟DAY 24 Remove Outermost Parentheses: The Ultimate Guide to Depth"
+title: "🌟DAY 25 Remove Outermost Parentheses: The Ultimate Guide to Depth"
 seoTitle: "Remove Outermost Parentheses: Simplified Guide"
 seoDescription: "Discover how to remove outermost parentheses with a depth-first approach. Improve your loop reading and state tracking skills today!"
 datePublished: Fri Jan 30 2026 17:46:28 GMT+0000 (Coordinated Universal Time)
 cuid: cml16cz41000d02jma0org3p1
-slug: day-24-remove-outermost-parentheses-the-ultimate-guide-to-depth
+slug: day-25-remove-outermost-parentheses-the-ultimate-guide-to-depth
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769794546357/e5f7e23b-bc83-4a7a-a6cc-b5af0e6aa882.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1769795126244/879151af-f3bd-424e-b920-a682a7acb58f.png
 tags: developer, learning, dsa, learning-journey, dsa-series
