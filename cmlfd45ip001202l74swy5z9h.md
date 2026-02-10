@@ -1,10 +1,10 @@
 ---
-title: "🔤 Day 28 — Count Vowels & Consonants"
+title: "🔤 Day 27 — Count Vowels & Consonants"
 seoTitle: "Vowel and Consonant Counter Tool"
 seoDescription: "Learn how to count vowels and consonants in a string with this beginner-friendly guide on string manipulation basics"
 datePublished: Mon Feb 09 2026 16:04:20 GMT+0000 (Coordinated Universal Time)
 cuid: cmlfd45ip001202l74swy5z9h
-slug: day-28-count-vowels-and-consonants
+slug: day-27-count-vowels-and-consonants
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770652965000/0bad70f7-2ac9-4c18-9067-6b6d0e9aac23.png
 tags: javascript, web-development, learning, dsa, learn-coding, dsawithricha
 
